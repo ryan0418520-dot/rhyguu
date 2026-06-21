@@ -1,7 +1,27 @@
 {
   "title": "Rhyguu Server",
-  "description": "Reverse rhythm universe",
-  "engines": [],
-  "skins": [],
-  "levels": []
+  "engines": [
+    {
+      "id": "test-engine",
+      "title": "Test Engine",
+      "version": 1,
+      "path": "engines/test-engine.json"
+    }
+  ],
+  "skins": [
+    {
+      "id": "test-skin",
+      "title": "Test Skin",
+      "version": 1,
+      "path": "skins/test-skin.json"
+    }
+  ],
+  "levels": [
+    {
+      "id": "test-level",
+      "title": "Test Level",
+      "version": 1,
+      "path": "levels/test-level.json"
+    }
+  ]
 }
